@@ -1,0 +1,34 @@
+header{
+    overflow-x:hidden;
+    width:1440px;
+    height:96px;
+    margin-top:10px;
+}
+#one{
+    display:flex;
+}
+h3{
+    margin-left:5%;
+    margin-right:74%;
+}
+a{
+    height:45px;
+    text-decoration: none;
+    color:#992E9D;
+    font-weight:bold;
+    align-self: center;
+    padding:5px;
+    font-family: 'Poppins';
+
+}
+.b{
+    height:48px;
+    background-color:#992E9D;
+    padding:5px 25px;
+    color:white;
+    border:none;
+    font-weight:bold;
+    border-radius:25px;
+    cursor:pointer;
+    font-family: 'Poppins';
+}
