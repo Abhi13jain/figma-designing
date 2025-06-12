@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Categories and Guests</title>
+  <link rel="stylesheet" href="temp6.css" />
+</head>
+<body>
+  <div class="top">
+    <h1>CATEGORIES</h1>
+    
+    <p>
+      Winning is a habit that takes years in formation. Our winners have been practicing their art in <br>
+      different domains for many seasons.
+    </p>
+    <div class="icons">
+      <div class="icon">
+        <img src="https://cdn.dnaindia.com/icon1.svg" alt="Health" class="icon-bg" />
+        <div class="icon-content"><div id="health" class="logo"></div><p>HEALTH</p></div>
+      </div>
+      <div class="icon">
+        <img src="https://cdn.dnaindia.com/icon2.svg" alt="Retail" class="icon-bg" />
+        <div class="icon-content"><div id="retail" class="logo"></div><p>RETAIL</p></div>
+      </div>
+      <div class="icon">
+        <img src="https://cdn.dnaindia.com/icon3.svg" alt="Startups" class="icon-bg" />
+        <div class="icon-content"><div id="startups" class="logo"></div><p>STARTUPS</p></div>
+      </div>
+      <div class="icon">
+        <img src="https://cdn.dnaindia.com/icon4.svg" alt="Finance" class="icon-bg" />
+        <div class="icon-content"><div id="finance" class="logo"></div><p>FINANCE</p></div>
+      </div>
+      <div class="icon">
+        <img src="https://cdn.dnaindia.com/icon5.svg" alt="Ecommerce" class="icon-bg" />
+        <div class="icon-content"><div id="ecommerce" class="logo"></div><p>ECOMMERCE</p></div>
+      </div>
+      <div class="icon">
+        <img src="https://cdn.dnaindia.com/icon6.svg" alt="FMCG" class="icon-bg" />
+        <div class="icon-content"><div id="fmcg" class="logo"></div><p>FMCG</p></div>
+      </div>
+      <div class="icon">
+        <img src="https://cdn.dnaindia.com/icon7.svg" alt="Fashion" class="icon-bg" />
+        <div class="icon-content"><div id="fashion" class="logo"></div><p>FASHION</p></div>
+      </div>
+      <div class="icon">
+        <img src="https://cdn.dnaindia.com/icon8.svg" alt="Sports" class="icon-bg" />
+        <div class="icon-content"><div id="sports" class="logo"></div><p>SPORTS</p></div>
+      </div>
+      <div class="icon">
+        <img src="https://cdn.dnaindia.com/icon9.svg" alt="Influencer" class="icon-bg" />
+        <div class="icon-content"><div id="influencer" class="logo"></div><p>INFLUENCER</p></div>
+      </div>
+      <div class="icon">
+        <img src="https://cdn.dnaindia.com/icon10.svg" alt="Defence" class="icon-bg" />
+        <div class="icon-content"><div id="defence" class="logo"></div><p>DEFENCE</p></div>
+      </div>
+      <div class="icon">
+        <img src="https://cdn.dnaindia.com/icon11.svg" alt="Hospitality" class="icon-bg" />
+        <div class="icon-content"><div id="hospitality" class="logo"></div><p>HOSPITALITY</p></div>
+      </div>
+      <div class="icon">
+        <img src="https://cdn.dnaindia.com/icon12.svg" alt="Auto" class="icon-bg" />
+        <div class="icon-content"><div id="auto" class="logo"></div><p>AUTO</p></div>
+      </div>
+    </div>
+    <div class="guests">
+      <div class="guest">
+        <h3>CHIEF GUEST</h3>
+        <img src="https://via.placeholder.com/100" alt="Shri Brajesh Pathak" />
+        <h4>Shri Brajesh Pathak</h4>
+        <p>
+          Shri Brajesh Pathak is a veteran BJP leader who is currently serving as the Deputy Chief Minister of Uttar Pradesh. An alumnus of the Lucknow University, Shri Pathak was accountant by profession before he entered public life. Shri Pathak is a two time Member of Parliament, having served in both Lok Sabha (2004–2009) and Rajya Sabha (2008–2014).
+        </p>
+      </div>
+      <div class="guest">
+        <h3>CHIEF GUEST</h3>
+        <img src="https://via.placeholder.com/100" alt="Dr. Mahesh Sharma" />
+        <h4>Dr. Mahesh Sharma</h4>
+        <p>
+          Daughter of one of India’s favourite politicos, former minister of external affairs late Sushma Swaraj, Bansuri is a Supreme Court advocate and a budding youth politician. An alumna of the prestigious Oxford University, Bansuri has served as additional advocate general for Haryana in a long legal career.
+        </p>
+      </div>
+      <div class="guest">
+        <h3>CHIEF GUEST</h3>
+        <img src="https://via.placeholder.com/100" alt="Chirag Paswan" />
+        <h4>Chirag Paswan</h4>
+        <p>
+          A second-generation political leader, Chirag Paswan has been serving as Member of Parliament, Lok Sabha from Jamui. He is the son of legendary Indian statesman Ram Vilas Paswan. Chirag Paswan serves as the President of the Lok Janshakti Party (Ram Vilas).
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
