@@ -1,0 +1,255 @@
+body {
+  margin: 0;
+  font-family: "Lora", serif;
+  background: white;
+}
+
+.top {
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.top h1 {
+  color: #ae105a;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.top p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.icons {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+  width: 100%;
+  justify-items: center;
+  margin: 40px auto;
+  padding: 0 20px;
+  max-width: 1400px;
+  box-sizing: border-box;
+}
+
+.icon {
+  position: relative;
+  width: 190px;
+  height: 222px;
+  border-radius: 80px;
+  border-bottom-left-radius: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  opacity: 1;
+}
+
+.icon-content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+#health,
+#retail,
+#finance,
+#ecommerce,
+#fmcg,
+#fashion,
+#sports,
+#influencer,
+#defence,
+#hospitality,
+#auto {
+  width: 55px;
+  height: 55px;
+}
+
+#startups {
+  width: 67px;
+  height: 74px;
+  transform: matrix(0.93, 0.37, -0.37, 0.93, 0, 0);
+}
+
+.icon-content p {
+  margin: 0;
+  font-size: 14px;
+  color: white;
+  font-weight: 500;
+}
+
+.guests {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin: 60px auto;
+  max-width: 1100px;
+}
+
+.guest {
+  background: #fff;
+  border-radius: 80px;
+  border-bottom-left-radius: 0;
+  border: 1px solid #810a53;
+  box-shadow: 0 0 7px #6e084729;
+  width: 300px;
+  padding: 25px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.guest h3 {
+  color: #ae105a;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.guest img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.guest h4 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.guest p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.5;
+}
+
+@media (max-width: 1200px) {
+  .icons {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+@media (max-width: 992px) {
+  .icons {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .icons {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .icon {
+    width: 160px;
+    height: 190px;
+  }
+}
+
+@media (max-width: 500px) {
+  .top {
+    text-align: center;
+    padding: 30px 10px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .top h1,
+  .top p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .icons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    justify-items: center;
+    padding: 0 10px;
+    margin: 40px auto;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .icon {
+    width: 127px;
+    height: 162px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 80px;
+    border-bottom-left-radius: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .icon-content {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .icon-content p {
+    font-size: 12px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .icon-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    z-index: 0;
+  }
+
+  .guests {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 40px auto;
+    padding: 0 10px;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .guest {
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    text-align: center;
+  }
+}
